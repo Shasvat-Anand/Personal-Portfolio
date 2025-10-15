@@ -58,11 +58,11 @@
 }
 
 .home__img{
-    background: url(../../assets/profile.jpg);
+    background: url(../../assets/profileimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 7px rgba(47, 255, 5, 0.458);
+    box-shadow: inset 0 0 0 7px rgba(255, 255, 255, 0.458);
      
     order: 1;
     width: 300px;
@@ -154,7 +154,7 @@
   .home__img{
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 5px rgba(47, 255, 5, 0.458);
+    box-shadow: inset 0 0 0 5px rgba(239, 240, 239, 0.458);
   }
 
   .home__scroll{
@@ -178,7 +178,7 @@
         
     }
     .home__img{
-        box-shadow: inset 0 0 0 3px rgba(47, 255, 5, 0.458);
+        box-shadow: inset 0 0 0 3px rgba(229, 247, 225, 0.458);
         width: 200px;
         height: 200px;
 

@@ -7,14 +7,26 @@
 :root{
   --header-height: 3.5rem;
 
-  --hue:0;
+  /* --hue:0;
   --sat:0%;
   --title-color:hsl(var(--hue),var(--sat),20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
 
   --text-color: hsl(var(--hue),var(--sat),40%);
   --body-color: hsl(var(--hue),var(--sat),100%);
-  --container-color: #fff;
+  --container-color: #fff; */
+
+ 
+
+   
+--container-color: rgb(6, 6, 6); 
+--title-color: hsl(0, 0%, 100%);
+--title-color-dark: hsl(98, 94%, 51%);
+--body-color:hsla(0, 0%, 84%, 0);
+/* --title-color-dark: hsl(var(--hue), var(--sat), 0%); */
+/* --text-color: hsl(var(--hue), var(--sat), 40%); */
+/* --body-color: hsl(var(--hue), var(--sat), 100%); */
+/* --container-color: hsl(var(--hue), var(--sat), 95%);  */
 
 
   --body-font: 'Poppins', sans-serif;
@@ -86,8 +98,10 @@ textarea{
 }
 
 body{
-  background-color: var(--body-color);
-  color: var(--text-color);
+  /* background-color: var(--body-color); */
+  background-color: #000000;
+  /* color: var(--text-color); */
+  color: #fff;
 
 }
 
@@ -163,7 +177,9 @@ img{
 .button{
   display: inline-block;
   background-color: var(--title-color);
-  color: var(--container-color);
+  /* background-color: #2d006b; */
+  /* color: var(--container-color); */
+  color: black;
   padding:  1.25rem 2rem;
   border-radius: 1rem;
   font-size: var(--small-font-size);
@@ -172,12 +188,16 @@ img{
 }
 
 .button:hover{
-  background-color: var(--title-color-dark);
+  /* background-color: var(--title-color-dark); */
+  background-color: rgba(149, 252, 45, 0.864);
+  color: white;
   
 }
 
 .button__icon{
   margin-left: var(--mb-0-5);
+  
+  
 }
 
 .button--flex{

@@ -2,13 +2,45 @@
     grid-template-columns: repeat(2,350px);
     column-gap: 3rem;
     justify-content: center;
+    
+
+    
 }
 
 .skills__content{
-    background-color: var(--container-color);
+    background-color: rgb(0, 0, 0,0.5);
+    /* background-color: var(--container-color); */
+   
     border-radius:1.25rem ;
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgb(152, 153, 152);
+    box-shadow:  8px 9px 10px rgba(42, 255, 220, 0.538);
+    /* background:transparent; */
     padding: 2rem 4rem;
+    transition:  1s;
+    
+    
+}
+.skills__content:hover{
+    animation: beat 2s  alternate-reverse infinite;
+    box-shadow:10px 10px 10px greenyellow;
+    
+
+}
+
+@keyframes beat {
+    0%{
+        box-shadow: 0px 0px 0px greenyellow;
+    }
+    20%{
+        box-shadow: 2px 2px 2px greenyellow;
+    }
+    60%{
+        box-shadow: 6px 6px 6px greenyellow;
+    }
+    100%{
+         box-shadow: 10px 10px 10px greenyellow;
+    }
+    
 }
 
 .skills__title{
@@ -16,6 +48,7 @@
     font-weight: var(--font-medium);
     text-align: center;
     margin-bottom: var(--mb-1-5);
+    color: rgb(255, 255, 255);
 
 }
 
@@ -35,7 +68,10 @@
 .skills__data{
     display: flex;
     column-gap: 0.5rem;
+    color: rgb(88, 216, 24);
 }
+ 
+
 
 .skills .bx-badge-check{
     font-size: 1rem;
@@ -47,6 +83,7 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     line-height: 18px;
+    color: rgb(255, 255, 255);
 
 }
 .skills__level{

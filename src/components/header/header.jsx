@@ -7,10 +7,10 @@ const header = () => {
  
   return (
     <header className='header'>
-        <nav className="nav container">
+        <nav className="nav container ">
             <a href="index.html" className="nav__logo">AJ</a>
 
-            <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+            <div className={Toggle ? "nav__menu show-menu" : "glowblur nav__menu"}>
                 <ul className=" nav__lists grid">
                     <li className="nav__item active-link">
                         <a href="#home" className="nav__link ">
